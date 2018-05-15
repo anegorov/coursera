@@ -1,0 +1,27 @@
+apply plugin: 'java'
+
+task runTest(type: JavaExec){
+	main = 'jagru.TestIntegration'
+	classpath = sourceSets.test.runtimeClasspath
+}
+
+task printProsto{
+	print x
+}
+
+test {
+	testLogging.showStandardStreams = true
+}
+
+
+
+repositories{
+	mavenCentral()
+}
+
+dependencies{
+	testCompile 'junit:junit:4.11'
+    compile 'junit:junit:4.12'
+	compile group: 'org.apache.commons', name: 'commons-csv', version: '1.1'
+	compile group: 'no.priv.garshol.duke', name: 'duke', version: '1.2'
+}

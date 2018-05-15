@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="arraycoursera.WordPlayTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-05T09:27:24" hostname="anegorov-THINK" time="0.318">
+  <properties/>
+  <testcase name="countShakespeareTest" classname="arraycoursera.WordPlayTest" time="0.318"/>
+  <system-out><![CDATA[done with caesar.txt
+done with errors.txt
+done with hamlet.txt
+done with likeit.txt
+done with macbeth.txt
+done with romeo.txt
+the	4237
+of	2826
+and	3911
+to	2843
+a	2212
+in	1674
+for	1071
+is	1480
+on	402
+that	1679
+by	531
+this	937
+with	1166
+i	2939
+you	1788
+it	1063
+not	1194
+or	356
+be	942
+are	506
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

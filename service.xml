@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTf-8" standalone="yes"?>
+<CalcClientTariffRq>
+    <RqUID>$RqUID</RqUID>
+    <RqTm>$RqTm</RqTm>
+    <SPName>urn:sbrfsystems:38-asfs</SPName>
+    <BankInfo>
+        <BranchId>01174</BranchId>
+        <AgencyId>9038</AgencyId>
+        <RegionId>38</RegionId>
+        <RbTbBrchId>99000000</RbTbBrchId>
+    </BankInfo>
+    <SPSubName>currency</SPSubName>
+    <UserInfo>
+        <UserCode>1695535</UserCode>
+    </UserInfo>
+    <OperationInfo>
+        <OperationDate>$OpDt</OperationDate>
+        <RegionId>38</RegionId>
+        <CalcMode>0</CalcMode>
+    </OperationInfo>
+    <Client>
+        <PartyId>$PartyId</PartyId>
+    </Client>
+    <Calculation>
+        <OperationCode>2.10.2.1.2.3.1.1</OperationCode>
+        <OperationVersion>2</OperationVersion>
+        <CalcNum>1</CalcNum>
+        <Parameters>
+            <Parameter>
+                <Code>currencyCreditStr</Code>
+                <LongValue></LongValue>
+            </Parameter>
+            <Parameter>
+                <Code>currencyDebitStr</Code>
+                <LongValue>$currencyDebitStr</LongValue>
+            </Parameter>
+            <Parameter>
+                <Code>amountDebit</Code>
+                <DoubleValue>$amountDebit</DoubleValue>
+            </Parameter>
+            <Parameter>
+                <Code>amountCredit</Code>
+                <DoubleValue>$amountCredit</DoubleValue>
+            </Parameter>
+        </Parameters>
+    </Calculation>
+</CalcClientTariffRq>
